@@ -1,0 +1,33 @@
+﻿<Application
+    x:Class="MyTelerikSamples.AutoCompleteBoxSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:viewModel="using:MyTelerikSamples.AutoCompleteBoxSample.ViewModel"
+    xmlns:controls="using:Telerik.Universal.UI.Xaml.Controls">
+    <Application.Resources>
+        <ResourceDictionary>
+            <viewModel:ViewModelLocator x:Key="Locator"/>
+            <controls:UserThemeResources x:Key="ThemeResource" 
+                                         DarkResourcesPath="ms-appx:///Styles/TelerikResources.xaml"
+                                         LightResourcesPath="ms-appx:///Styles/TelerikResources.xaml"/>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Default">
+                    <ResourceDictionary.MergedDictionaries>
+                        <!-- your namespace is "Telerik.Universal.UI.Xaml.Input" -->
+                        <ResourceDictionary Source="ms-appx:///Telerik.Universal.UI.Xaml.Input/Themes/ThemeResourcesDark.xaml"/>
+                        <ResourceDictionary Source="{CustomResource DarkResourcesPath}"/>
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+                <ResourceDictionary x:Key="Light">
+                    <ResourceDictionary.MergedDictionaries>
+                        <ResourceDictionary Source="ms-appx:///Telerik.Universal.UI.Xaml.Input/Themes/ThemeResourcesLight.xaml"/>
+                        <ResourceDictionary Source="{CustomResource LightResourcesPath}"/>
+                    </ResourceDictionary.MergedDictionaries>
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Style/Definition.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

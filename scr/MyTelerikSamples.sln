@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyTelerikSamples.AutoCompleteBoxSample", "MyTelerikSamples.AutoCompleteBoxSample", "{D24C1FA9-5D0C-448E-9933-A4A547BDE5DA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MyTelerikSamples.AutoCompleteBoxSample.Shared", "MyTelerikSamples.AutoCompleteBoxSample\MyTelerikSamples.AutoCompleteBoxSample.Shared\MyTelerikSamples.AutoCompleteBoxSample.Shared.shproj", "{BB62FE0E-E586-4055-8795-62D1F2D70C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTelerikSamples.AutoCompleteBoxSample.Windows", "MyTelerikSamples.AutoCompleteBoxSample\MyTelerikSamples.AutoCompleteBoxSample.Windows\MyTelerikSamples.AutoCompleteBoxSample.Windows.csproj", "{762F80F6-5F6A-479A-A18C-64B5E929D918}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTelerikSamples.AutoCompleteBoxSample.WindowsPhone", "MyTelerikSamples.AutoCompleteBoxSample\MyTelerikSamples.AutoCompleteBoxSample.WindowsPhone\MyTelerikSamples.AutoCompleteBoxSample.WindowsPhone.csproj", "{D565A831-01BE-486B-8471-EBF16B3D8F0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7527C9F2-5C76-4BAD-BE3C-3BD5019B88CC}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MyTelerikSamples.AutoCompleteBoxSample\MyTelerikSamples.AutoCompleteBoxSample.Shared\MyTelerikSamples.AutoCompleteBoxSample.Shared.projitems*{bb62fe0e-e586-4055-8795-62d1f2d70c34}*SharedItemsImports = 13
+		MyTelerikSamples.AutoCompleteBoxSample\MyTelerikSamples.AutoCompleteBoxSample.Shared\MyTelerikSamples.AutoCompleteBoxSample.Shared.projitems*{d565a831-01be-486b-8471-ebf16b3d8f0d}*SharedItemsImports = 4
+		MyTelerikSamples.AutoCompleteBoxSample\MyTelerikSamples.AutoCompleteBoxSample.Shared\MyTelerikSamples.AutoCompleteBoxSample.Shared.projitems*{762f80f6-5f6a-479a-a18c-64b5e929d918}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|ARM.ActiveCfg = Debug|ARM
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|ARM.Build.0 = Debug|ARM
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|ARM.Deploy.0 = Debug|ARM
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|x64.ActiveCfg = Debug|x64
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|x64.Build.0 = Debug|x64
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|x64.Deploy.0 = Debug|x64
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|x86.ActiveCfg = Debug|x86
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|x86.Build.0 = Debug|x86
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Debug|x86.Deploy.0 = Debug|x86
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|ARM.ActiveCfg = Release|ARM
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|ARM.Build.0 = Release|ARM
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|ARM.Deploy.0 = Release|ARM
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|x64.ActiveCfg = Release|x64
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|x64.Build.0 = Release|x64
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|x64.Deploy.0 = Release|x64
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|x86.ActiveCfg = Release|x86
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|x86.Build.0 = Release|x86
+		{762F80F6-5F6A-479A-A18C-64B5E929D918}.Release|x86.Deploy.0 = Release|x86
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|ARM.Build.0 = Debug|ARM
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|x86.ActiveCfg = Debug|x86
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|x86.Build.0 = Debug|x86
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Debug|x86.Deploy.0 = Debug|x86
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|ARM.ActiveCfg = Release|ARM
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|ARM.Build.0 = Release|ARM
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|ARM.Deploy.0 = Release|ARM
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|x64.ActiveCfg = Release|Any CPU
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|x86.ActiveCfg = Release|x86
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|x86.Build.0 = Release|x86
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB62FE0E-E586-4055-8795-62D1F2D70C34} = {D24C1FA9-5D0C-448E-9933-A4A547BDE5DA}
+		{762F80F6-5F6A-479A-A18C-64B5E929D918} = {D24C1FA9-5D0C-448E-9933-A4A547BDE5DA}
+		{D565A831-01BE-486B-8471-EBF16B3D8F0D} = {D24C1FA9-5D0C-448E-9933-A4A547BDE5DA}
+	EndGlobalSection
+EndGlobal
